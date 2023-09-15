@@ -48,24 +48,3 @@ public class RunningTest {
 	        return answer;        
 	    }	    
 	}
-	
-//  시간초과로 인한 오류 풀이
-//	class Solution {
-//	    public String[] solution(String[] players, String[] callings) {
-//	        String[] answer = {};        
-//	        for(int i=0;i<callings.length;i++){            
-//	            for(int j=0;j<players.length;j++){
-//	                if(players[j].equals(callings[i])){
-//	                    String name=players[j-1];
-//	                    players[j-1]=players[j];
-//	                    players[j]=name;                    
-//	                }
-//	            }
-//	        }     
-//	        answer=players;                
-//	        return answer;        
-//	    }
-//	    
-//	}
-
-
