@@ -16,7 +16,10 @@ public class Operator {
 		//int[] memory=new MemoryScore().solution(null, null, null); System.out.println(Arrays.toString(memory));
 		
 		//공원 산책 2023-09-15
-		int[] park=new ParkWalking().solution(args, args); System.out.println(Arrays.toString(park));
+		//int[] park=new ParkWalking().solution(args, args); System.out.println(Arrays.toString(park));
+		
+		//약수의 합 2023-09-16
+		int divisor=new SumDivisor().solution(0); System.out.println(divisor); 
 	}
 	
 }

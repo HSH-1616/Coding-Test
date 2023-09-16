@@ -1,10 +1,7 @@
 package com.programmers.level.one;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class ParkWalking {
 	public int[] solution(String[] park, String[] routes) {
@@ -15,7 +12,7 @@ public class ParkWalking {
 		int[] answer = {};
 		
 		//시작 위치 구하기
-		int start[] = null;
+		int[]  start= null;
 
 		for (int i = 0; i < park.length; i++) {
 			for (int j = 0; j < park[i].length(); j++) {

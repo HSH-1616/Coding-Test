@@ -1,10 +1,8 @@
 package com.programmers.level.one;
 
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class RunningTest {
 	    public String[] solution(String[] players, String[] callings) {
