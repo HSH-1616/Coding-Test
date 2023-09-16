@@ -65,7 +65,7 @@ public class ParkWalking {
 					flag=false;
 					break;
 				}												
-			}
+			}			
 			
 			//정상 경로일시 현재 위치 저장
 			if(flag) {
