@@ -21,7 +21,7 @@ public class RunningTest {
 				player.put(players[i], i);
 				player2.put(i, players[i]);
 			}
-
+			
 			for (int i = 0; i < callings.length; i++) {
 				
 				//추월한 선수 순위
