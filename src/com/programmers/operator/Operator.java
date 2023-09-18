@@ -18,8 +18,11 @@ public class Operator {
 		//공원 산책 2023-09-15
 		//int[] park=new ParkWalking().solution(args, args); System.out.println(Arrays.toString(park));
 		
-		//약수의 합 2023-09-16
-		int divisor=new SumDivisor().solution(0); System.out.println(divisor); 
+		//약수의 합 2023-09-16		
+		//int divisor=new SumDivisor().solution(0); System.out.println(divisor);
+		
+		//자리수 더하기 2023-09-16
+		int digit=new AddDigit().solution(0); System.out.println(digit); 
 	}
 	
 }
