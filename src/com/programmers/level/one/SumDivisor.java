@@ -6,13 +6,6 @@ public class SumDivisor {
 		n = 12;
 
 		int answer = 0;
-
-//		for(int i=1;i<=n;i++) {
-//		//나머지가 0이면 약수이므로 더하기
-//			if(n%i==0) {
-//				answer+=i;								
-//			}	
-//		}
 		
 		// 약수는 √n을 기점으로 서로 짝을 이루기 때문에 √n까지만 반복문을 돌리면 코드가 더 효율적이다.
 
