@@ -22,7 +22,10 @@ public class Operator {
 		//int divisor=new SumDivisor().solution(0); System.out.println(divisor);
 		
 		//자리수 더하기 2023-09-16
-		int digit=new AddDigit().solution(0); System.out.println(digit); 
+		//int digit=new AddDigit().solution(0); System.out.println(digit); 
+		
+		//카카오 신고 결과 받기 2023-09-26
+		int[] result=new KakaoReportResult().solution(args, args, 0); System.out.println(Arrays.toString(result));
 	}
 	
 }
